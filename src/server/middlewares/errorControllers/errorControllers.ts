@@ -1,8 +1,8 @@
-import { type NextFunction, type Request, type Response } from "express";
 import "../../../loadEnviroment.js";
+import { type NextFunction, type Request, type Response } from "express";
 import createDebug from "debug";
-import CustomError from "../../../CustomError/CustomError.js";
 import chalk from "chalk";
+import CustomError from "../../../CustomError/CustomError.js";
 
 const debug = createDebug("users-api:server:middleware:errorControllers");
 
